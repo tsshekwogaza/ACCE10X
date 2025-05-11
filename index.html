@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="@tsshekwogaza">
+    <meta name="keywords" content="Contact Form">
+    <title>ACCE10X-Contact</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet"> -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styling/style.css">  
+</head>
+
+<body>
+  <div class="form-container">
+    <h1>ACCE10X</h1>
+    <form id="contactForm" method="POST" action="submit.php">
+      <div class="input-group">
+        <input type="text" id="fullName" name="fullName" class="input-field" placeholder=" " required>
+        <label for="fullName">Full name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" name="email" class="input-field" placeholder=" " required>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <input type="text" id="phone" name="phone" class="input-field" placeholder=" " required pattern="[0-9]{10,}">
+        <label for="phone">Phone</label>
+      </div>
+      <div class="input-group">
+        <select id="reason" name="reason" required>
+          <option value="" disabled selected hidden>Choose a reason</option>
+          <option value="General Inquiry">General Inquiry</option>
+          <option value="Partnership">Partnership</option>
+          <option value="Feedback">Feedback</option>
+          <option value="Support Request">Support Request</option>
+        </select>
+        <label for="reason">Reason for Contact</label>
+      </div>
+      <div class="input-group">
+        <textarea id="message" name="message" class="input-field" placeholder=" " required maxlength="500"></textarea>
+        <label for="message">Message</label>
+        <div class="character-counter" id="charCounter">0 / 500</div>
+      </div>
+      <div class="checkbox-container">
+        <input type="checkbox" id="consent" name="consent" required>
+        <span for="consent">I agree to the <a href="T&C.html" target="_blank">terms and conditions</a></span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+  <script src="javascripts/script.js"></script>
+  
+</body>
+</html>
