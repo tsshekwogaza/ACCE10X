@@ -2,14 +2,12 @@
 
 This solution was built based on ACCE10X requirements. A simple -**mobile-based QR Code Contact Form**- to collect and store user information, for events. 
 
-
 ### Built with
 
 - HTML5
 - CSS3
 - JAVASCRIPT
 - PHP
-
 
 ### Features
 
@@ -24,7 +22,6 @@ This solution was built based on ACCE10X requirements. A simple -**mobile-based 
 - **Dropdown/Select field** (e.g., “Reason for Contact”).
 - **Checkbox for consent** (GDPR compliance).
 - **Validation for all fields** (with helpful tooltips).
-
 
 ### How It Works
 
