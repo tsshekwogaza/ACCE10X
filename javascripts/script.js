@@ -23,7 +23,7 @@
           form.reset();
           charCounter.textContent = '0 / 500';
         } else {
-          alert("Thank you for contacting ACCE10X. Please try again later!");
+          alert("Thank you for contacting ACCE10X. Error occured please try again!");
         }
       });
     });
