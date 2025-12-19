@@ -1,12 +1,114 @@
-body {background-color: #ccc2c2;font-family: 'Poppins', sans-serif;margin: 0;padding: 0;display: flex;justify-content: center;align-items: center;height: 100vh;}
-.form-container {background-color: #000000;padding: 30px;border-radius: 15px;box-shadow: 0 2px 15px 15px rgba(54, 54, 54, 0.301);width: 100%;max-width: 400px;}
-h1 {color:  rgb(40, 7, 187);text-align: center;margin-top: 0px;margin-bottom: 20px;}
-.input-group {position: relative;margin-bottom: 15px;}
-.input-field, select, textarea {width: 100%;padding: 15px;background-color: #272727;color: #ddd;border: 1px solid #ddd;border-radius: 5px;outline: none;transition: 0.3s;font-family: inherit;box-sizing: border-box;}
-.input-field:focus, select:focus, textarea:focus {border-color: rgb(66, 32, 218);}
-label {position: absolute;top: 50%;left: 15px;transform: translateY(-50%);padding: 0 5px;transition: 0.3s;color: #999;}
-.input-field:focus + label,.input-field:not(:placeholder-shown) + label,select:focus + label,select:not(:placeholder-shown) + label,textarea:focus + label,textarea:not(:placeholder-shown) + label {top: -5px;font-size: 12px;color: rgb(66, 32, 218);}
-textarea {resize: none;height: 100px;}.dev {position: fixed;top: 95%;left: 47%;font-size: 9px; text-align: center; color: #999;}
-.character-counter {text-align: right;font-size: 12px;color: #999;}.checkbox-container {display: flex;align-items: center;margin-bottom: 15px;}span {color: #999;font-size: small;}.checkbox-container input {margin-right: 10px;}
-button {width: 100%;padding: 15px;border: none;background-color: rgb(53, 14, 226);color: white;font-size: 16px;border-radius: 5px;cursor: pointer;transition: background-color 0.3s;}
-button:hover {background-color:  rgb(40, 7, 187);}
+body {
+  background-color: #ccc2c2;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: #000000;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px 15px rgba(54, 54, 54, 0.301);
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  color:  rgb(40, 7, 187);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-field, select, textarea {
+  width: 100%;
+  padding: 15px;
+  background-color: #272727;
+  color: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.input-field:focus, select:focus, textarea:focus {
+  border-color: rgb(66, 32, 218);
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  transition: 0.3s;
+  color: #999;
+}
+
+.input-field:focus + label,.input-field:not(:placeholder-shown) + label,select:focus + label,select:not(:placeholder-shown) + label,textarea:focus + label,textarea:not(:placeholder-shown) + label {
+  top: -5px;
+  font-size: 12px;
+  color: rgb(66, 32, 218);
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.dev {
+  position: fixed;
+  top: 95%;left: 47%;
+  font-size: 9px; 
+  text-align: center; 
+  color: #999;
+}
+
+.character-counter {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+span {
+  color: #999;
+  font-size: small;
+}
+
+.checkbox-container input {
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: rgb(53, 14, 226);
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color:  rgb(40, 7, 187);
+}
